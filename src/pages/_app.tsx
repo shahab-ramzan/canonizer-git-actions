@@ -21,7 +21,7 @@ import { checkTopicCampExistAPICall } from "src/network/api/campDetailApi";
 class WrappedApp extends App<AppInitialProps> {
   public render() {
     const { Component, pageProps, meta } = this.props as any;
-
+console.log('first')
     return (
       <Fragment>
         <CookiesProvider>
