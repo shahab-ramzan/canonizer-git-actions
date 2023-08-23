@@ -30,5 +30,11 @@ jobs:
         run: |
           npm config set legacy-peer-deps true
           npm install
+
+      - name: Run test cases
+        run: |
           npm run test
+      
+      - name: Run build 
+        run: |
           npm run build
